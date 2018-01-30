@@ -5,6 +5,12 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipeConnection", "PipeConnection\PipeConnection.csproj", "{B37FC96D-27C4-4CED-884F-D1870152945D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleApplication", "SampleApplication", "{5C968073-0F1B-4EBF-8540-3063FF0223AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleServer", "SampleServer\SampleServer.csproj", "{8715DBAB-88C9-4477-AD5A-36B79A3F7324}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleClient", "SampleClient\SampleClient.csproj", "{FD66CB41-524B-4209-974E-AADCA8CD525B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +21,21 @@ Global
 		{B37FC96D-27C4-4CED-884F-D1870152945D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B37FC96D-27C4-4CED-884F-D1870152945D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B37FC96D-27C4-4CED-884F-D1870152945D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8715DBAB-88C9-4477-AD5A-36B79A3F7324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8715DBAB-88C9-4477-AD5A-36B79A3F7324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8715DBAB-88C9-4477-AD5A-36B79A3F7324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8715DBAB-88C9-4477-AD5A-36B79A3F7324}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD66CB41-524B-4209-974E-AADCA8CD525B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD66CB41-524B-4209-974E-AADCA8CD525B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD66CB41-524B-4209-974E-AADCA8CD525B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD66CB41-524B-4209-974E-AADCA8CD525B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8715DBAB-88C9-4477-AD5A-36B79A3F7324} = {5C968073-0F1B-4EBF-8540-3063FF0223AD}
+		{FD66CB41-524B-4209-974E-AADCA8CD525B} = {5C968073-0F1B-4EBF-8540-3063FF0223AD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6A402DFA-5F84-4916-A520-718D69112155}
