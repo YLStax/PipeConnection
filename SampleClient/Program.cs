@@ -14,11 +14,11 @@ namespace SampleClient
         {
             var client = new PipeClient<string, int>("sample_pipe");
 
-            Console.WriteLine("Input \"end\" to end application");
+            Console.WriteLine("Input \"exit\" to end application");
             Console.WriteLine("Input other string to response string length from pipe server");
 
             string request;
-            while ((request = Console.ReadLine()) != "end")
+            while ((request = Console.ReadLine()) != "exit")
             {
                 var response = client.Request(request);
                 Console.WriteLine($"\"{request}\" length is {response}");
